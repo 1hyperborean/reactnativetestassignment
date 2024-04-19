@@ -29,6 +29,7 @@ export const Home = () => {
                key={item.id.toString()} 
                itemName={item.name} 
                itemBody={item.body}/>
+               
               )
             })
           }
